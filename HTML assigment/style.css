@@ -1,0 +1,385 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+  /* //section1// */
+ .one img{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: start;
+ }
+ .section1 ul {
+    display: flex;
+    justify-content: center;
+    list-style:none ;
+    margin-top: -85px;
+}
+.section1 ul li {
+    padding: 20px;
+    text-transform: uppercase;
+    
+    
+}
+.section1 ul li a{
+    display: block;
+    color: black;
+    width: 100%;
+    text-decoration: none;
+}
+li:hover{
+    background-color: blue;
+}
+button {
+    cursor: pointer;
+}
+
+ .one button{
+    padding: 5px;
+    background-color: darkmagenta;
+    color: aliceblue;
+    font-size: larger;
+    border: none;
+    border-radius: 10px;
+    margin-left: 50px;
+ }
+ .one button a{
+    display: block;
+    color:white;
+    width: 100%;
+    text-decoration: none;
+ }
+ .two img{
+    width: 100%;
+    height: 65vh;
+    position: relative;
+ }
+ .three {
+   position: absolute;
+   margin-left: 90px;
+   top: 200px;
+   color: aliceblue;
+   font-size: 30px;
+ }
+ .two button{
+    padding: 5px;
+    background-color: darkmagenta;
+    color: aliceblue;
+    font-size: larger;
+    border: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+ }
+ .two button a{
+    display: block;
+    color:white;
+    width: 100%;
+    text-decoration: none;
+}
+ /* //section2// */
+ .section2 h2{
+    font-size: 50px;
+    margin-left: 60px;
+ }
+ .section2 span{
+   padding: 20px;
+   padding-top: 30px;
+   background-color:lightcyan;
+   border-radius: 50%;
+   
+ }
+
+.fa-sharp{ 
+    font-size: 40px;
+    
+}
+.four{
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    gap: 10px;
+}
+/* }//section3// */
+.section3{
+    background-color:azure;
+    height: 120vh;
+    width: 100%;
+}
+.game h1{
+    text-align: center;
+    font-size: 50px;
+}
+.game p{
+    text-align: center;
+    word-spacing: 450px;
+}
+.game hr{
+    width: 85%;
+}
+.nine{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.ten{
+    background-color:white;
+    width: 20%;
+    height: 82vh;
+}
+ .ten img{
+    width: 100%;
+    height: 40vh;
+}
+.eleven{
+    background-color:white;
+    width: 20%;
+    height: 82vh;
+}
+ .eleven img{
+    width: 100%;
+    height: 40vh;
+}
+.twelve{
+    background-color:white;
+    width: 20%;
+    height: 82vh;
+}
+ .twelve img{
+    width: 100%;
+    height: 40vh;
+}
+.thirteen{
+    background-color:white;
+    width: 20%;
+    height: 82vh;
+}
+ .thirteen img{
+    width: 100%;
+    height: 40vh;
+}
+
+.vtn{
+    background-color:azure;
+    width: 96.8%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn1{
+    padding: 5px;
+    background-color: darkmagenta;
+    color: aliceblue;
+    font-size: larger;
+    border: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+}
+.vtn button a{
+    display: block;
+    color:white;
+    width: 100%;
+    text-decoration: none;
+}
+.nine span{
+    color: darkmagenta;
+    font-weight: 800;
+}
+/* //section4// */
+.section4 h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.section4 h3{
+    font-size: 10px;
+   display: flex;
+   justify-content: center;
+   gap: 5px;
+}
+.fourteen{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 59%;
+   margin-left: 300px;
+}
+.fourteen img{
+    width: 170px;
+    height: 60px;
+    border-radius: 50%;
+}
+.game2 h2{
+    text-align: center;
+    width: 73%;
+    font-weight: bold;
+    margin-top: -10px;
+}
+.game2 p{
+    text-align: center;
+   width: 65.3%;
+   margin-top: -15px;
+}
+
+/* //section5// */
+.section5{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+}
+.section5 h1{
+font-size: 30px;
+}
+.section5 button{
+    padding: 5px;
+    background-color: darkmagenta;
+    color: aliceblue;
+    font-size: larger;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+.section5 button a{
+    display: block;
+    color:white;
+    width: 100%;
+    text-decoration: none;
+}
+/* //section6// */
+.section6{
+    background-color: darkmagenta;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.section6 hr{
+    width: 90%;
+    margin-top: 30px;
+}
+.fifteen img {
+    
+    margin-left: 80px;
+    width: 80px;
+    height: 50px;
+    
+    background-color: aliceblue;
+}
+.sixteen ul {
+    display: flex;
+    justify-content: center;
+    list-style:none ;
+    margin-top: -70px;
+}
+.sixteen ul li {
+    padding: 20px;
+    
+    
+}
+.sixteen ul li a{
+    display: block;
+    color: aliceblue;
+    width: 100%;
+}
+.net{
+    color: aliceblue;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    margin-top: -50px;
+    margin-right: 70px;
+}
+.section6 p {
+color: aliceblue;
+margin-left: 60px;
+}
+.section6 span {
+    margin-top: -40px;
+    margin-right: 57px;
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   color: aliceblue;
+}
+/* //ABOUTUS.HTML// */
+/* //SECTION7// */
+.section7 h1{
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+.section7 p{
+   
+   width: 100%;
+    text-align: center;
+}
+.section7 ul {
+    display: flex;
+    justify-content: center;
+    list-style:none ;
+}
+.section7 ul li {
+    padding: 20px;
+    text-transform: uppercase;
+    
+    
+}
+.section7 ul li a{
+    display: block;
+    color: black;
+    width: 100%;
+    text-decoration: none;
+}
+.img1 img{
+    width: 100%;
+    height: 70vh;
+}
+.page h1{
+text-transform: uppercase;
+margin-top: -450px;
+color: black;
+}
+.page P{
+    display: flex;
+    justify-content: center;
+}
+.page2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 75px;
+    gap: 20px;
+}
+.page3 img{
+    width: 100%;
+    height: 50vh;
+}
+.page4 img{
+    width: 100%;
+    height: 50vh;
+}
+.page5 img{
+    width: 100%;
+    height: 50vh;
+}
+.page6 img{
+    width: 170%;
+    height: 50vh;
+}
+.page8 img{
+    width: 100%;
+    height: 60vh;
+}
+.section7 span{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
